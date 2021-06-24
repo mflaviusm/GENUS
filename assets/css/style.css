@@ -5,11 +5,17 @@
    border: none; 
 }
 
+body {
+   font-family: KoHo,sans-serif;
+}
+
 .nav-bar {
-   border-bottom: 1px solid #000000;
    text-align: right;
    height: 70px;
    line-height: 70px;
+   position: fixed;
+   width: 100%;
+   background-color: #EDDCD2;
 }
 .menu {
    margin: 0 30px 0 0;
@@ -17,10 +23,11 @@
 
 .menu a {
    text-decoration: none;
-   color: aqua;
+   color: #CB997E;
    margin: 0 10px;
    line-height: 70px;
    clear: right;
+   background-color: #EDDCD2;
 }
 
 label {
@@ -34,6 +41,47 @@ label {
 
 #toggle {
    display: none;
+}
+
+.hero {
+   background: url(../images/shutterstock_image\ \(1\).jpg) no-repeat center center;
+   width: 100%;
+   height: 350px;
+   overflow: hidden;
+   background-size: cover;
+}
+
+.content {
+   width: 100%;
+   text-align: center;
+   
+}
+
+.content h2 {
+   letter-spacing: 2px;
+   text-transform: uppercase;
+   padding-top: 20px;
+}
+
+.content p {
+   font-family: Inter, sans-serif;
+   padding: 20px 0 20px 0;
+}
+
+.button {
+   border: 1px solid black;
+   background-color: #A5A58D;
+   width: 150px;
+   height: 25px;
+   float: right;
+   margin-right: 20px;
+   text-align: center;
+}
+
+.button a {
+   font-family: Inter, sans-serif;
+   text-decoration: none;
+   color: #F0EFEB;
 }
 
 
@@ -54,7 +102,6 @@ label {
 
    .menu a {
       display: block;
-      border-bottom: 1px solid #000000;
       margin: 0;
    }
 
