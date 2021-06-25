@@ -112,23 +112,6 @@ label {
    padding-bottom: 20px;
 }
 
-.flexbox1 img {
-   width: 325px;
-   height: 200px;
-}
-
-.flexbox2 img {
-   width: 325px;
-   height: 200px;
-}
-
-.flexbox3 img {
-   width: 250px;
-  height: 350px;
-}
-
-
-
 
 @media only screen and (max-width: 736px) {
    label {
