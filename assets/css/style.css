@@ -51,26 +51,26 @@ label {
    background-size: cover;
 }
 
-.container {
+.flex-container {
    display: flex;
    flex-flow: column wrap;
    justify-content: center;
 }
 
-.content {
+.flex-box {
    width: 100%;
    text-align: center;
    
 }
 
-.content h2 {
+.flex-box h2 {
    letter-spacing: 2px;
    text-transform: uppercase;
    padding-top: 20px;
    clear: both;
 }
 
-.content p {
+.flex-box p {
    font-family: Inter, sans-serif;
    padding: 20px 20px 20px 20px;
 }
@@ -92,7 +92,7 @@ label {
    margin-right: 20px;
 }
 
-.newsletter {
+.flex-box-form {
    font-family: Inter, sans-serif;
    margin: 20px 50px;
    text-align: center;
@@ -103,27 +103,33 @@ label {
    height: 200px;
 }
 
-.newsletter h3 {
+.flex-box-form h3 {
    font-family: KoHo, sans-serif;
    padding: 20px 0 20px 0;
 }
 
-.newsletter p {
+.flex-box-form p {
    padding-bottom: 20px;
 }
-/**
-.button2 {
-   background-color: #A5A58D;
-   width: 150px;
-   height: 25px;
+
+.flexbox1 img {
+   width: 325px;
+   height: 200px;
 }
 
-.button2 a{
-   text-decoration: none;
-   color: #F0EFEB;
-   font-family: KoHo, sans-serif;
+.flexbox2 img {
+   width: 325px;
+   height: 200px;
 }
-**/
+
+.flexbox3 img {
+   width: 250px;
+  height: 350px;
+}
+
+
+
+
 @media only screen and (max-width: 736px) {
    label {
       display: block;
