@@ -77,13 +77,11 @@ label {
    display: flex;
    flex-flow: column wrap;
    justify-content: center;
-   padding-top: 7em;
 }
 
 .flex-box {
    width: 100%;
    text-align: center;
-   
 }
 
 .flex-box h2 {
@@ -123,7 +121,7 @@ label {
    background-color: #EDDCD2;
    padding: 20px 50px;
    width: auto;
-   height: 200px;
+   height: 225px;
 }
 
 .flex-box-form h3 {
@@ -133,6 +131,17 @@ label {
 
 .flex-box-form p {
    padding-bottom: 20px;
+}
+
+.flex-container2 {
+   display: flex;
+   flex-flow: column wrap;
+   justify-content: center;
+   padding-top: 7em;
+}
+
+.flex-box h3 {
+   padding-top: 15px;
 }
 
 .iframe-container {
