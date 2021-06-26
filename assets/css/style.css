@@ -30,7 +30,7 @@ body {
    background-color: #EDDCD2;
 }
 
-label {
+ .nav-bar label {
    margin: 0 40px 0 0;
    font-size: 25px;
    line-height: 70px;
@@ -44,7 +44,7 @@ label {
 }
 
 @media only screen and (max-width: 736px) {
-   label {
+   .nav-bar label {
       display: block;
       cursor: pointer;
    }
@@ -149,6 +149,7 @@ label {
    width: 100%;
    padding-bottom: 50%;
    height: 0;
+   margin-bottom: 20px;
 }
 
 .iframe-container iframe {
@@ -438,4 +439,29 @@ label {
       grid-column: 7 / span 6;
       grid-row: 13 / span 4;
    }
+}
+
+.flex-box-form label {
+   font-family: Inter, sans-serif;
+   width: 100%;
+   text-align: center;
+   line-height: 20px;
+   
+}
+
+.form-button {
+   background-color: #A5A58D;
+   width: 150px;
+   height: 25px;
+   cursor: pointer;
+}
+
+.flex-box-form input[type=text], input[type=email] {
+   width: 100%;
+   height: 25px;
+}
+
+@media only screen and (min-width: 786px) {
+   .flex-box-form input[type=text], input[type=email] {
+      width: 50%;
 }
