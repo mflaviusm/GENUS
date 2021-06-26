@@ -456,12 +456,14 @@ body {
    cursor: pointer;
 }
 
-.flex-box-form input[type=text], input[type=email] {
+.flex-box-form input[type=text], input[type=email], input[type=textarea] {
    width: 100%;
    height: 25px;
 }
 
 @media only screen and (min-width: 768px) {
-   .flex-box-form input[type=text], input[type=email] {
+   .flex-box-form input[type=text], input[type=email], input[type=textarea] {
       width: 50%;
+   }
 }
+
