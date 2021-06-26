@@ -508,3 +508,27 @@ input[type=textarea]:focus {
    grid-column: 6 / span 6;
    grid-row: 3 / span 3;
 }
+
+.footer-container {
+   background-color: #EDDCD2;
+  
+   display: grid;
+   grid-template-rows: repeat(2, 7vw);
+   grid-template-columns: repeat(8, 1fr);
+   grid-gap: 20px;
+}
+
+.footer-ul {
+   text-align: center;
+}
+
+.footer-ul li {
+   display: inline-block;
+   width: 20%;
+}
+
+.footer-ul i {
+   font-size: 250%;
+   color: #fff;
+   padding-top: 15%;
+}
