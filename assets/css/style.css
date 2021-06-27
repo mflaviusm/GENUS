@@ -47,6 +47,12 @@ body {
    background-color: #EDDCD2;
 }
 
+@media only screen and (min-width: 768px) {
+   .menu a {
+      cursor: pointer;
+   }
+}
+
  .nav-bar label {
    margin: 0 40px 0 0;
    font-size: 25px;
@@ -60,7 +66,7 @@ body {
    display: none;
 }
 
-@media only screen and (max-width: 736px) {
+@media only screen and (max-width: 768px) {
    .nav-bar label {
       display: block;
    }
@@ -120,6 +126,12 @@ body {
    background-color: #A5A58D;
    width: 150px;
    height: 25px;
+}
+
+@media only screen and (min-width: 768px) {
+   .button a{
+      cursor: pointer;
+   }
 }
 
 .button a {
@@ -531,7 +543,7 @@ body {
 }
 
 @media only screen and (min-width: 768px) {
-   .nav-bar img {
+   .form-button {
       cursor: pointer;
    }
 }
