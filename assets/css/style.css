@@ -156,7 +156,7 @@ body {
 .iframe-container {
    position: relative;
    width: 100%;
-   padding-bottom: 50%;
+   padding-bottom: 40%;
    height: 0;
    margin-bottom: 20px;
 }
@@ -167,6 +167,21 @@ body {
    left: 0;
    width: 100%;
    height: 100%;
+}
+
+@media only screen and (min-width: 768px) {
+   .iframe-container iframe {
+      width: 75%;
+      margin: 0 13%;
+      height: 100%;
+   }
+}
+
+@media only screen and (min-width: 1366px) {
+   .iframe-container iframe {
+      width: 75%;
+      height: 100%;
+   }
 }
 
 /*-------------------------------- Events Games Grid---*/
