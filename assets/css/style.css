@@ -174,23 +174,16 @@ body {
    background-color: #A5A58D;
    width: 150px;
    height: 25px;
-}
-
-@media only screen and (min-width: 1200px) {
-   .button a {
-      cursor: pointer;
-   }
-}
-
-.button a {
    text-decoration: none;
+   padding: 1em 2em 1em 2em;
    color: #F0EFEB;
    font-family: KoHo, sans-serif;
 }
 
-.content button {
-   float: right;
-   margin-right: 20px;
+@media only screen and (min-width: 1200px) {
+   .button {
+      cursor: pointer;
+   }
 }
 
 .flex-box-form {
