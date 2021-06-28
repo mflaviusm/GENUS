@@ -24,11 +24,17 @@ body {
 .nav-bar img {
    float: left;
    height: 50px;
-   width: 100px;
+   width: 125px;
    margin: 10px 0 0 10px;
 }
 
 @media only screen and (min-width: 768px) {
+   .nav-bar img {
+      width: 150px;
+   }
+}
+
+@media only screen and (min-width: 1200px) {
    .nav-bar img {
       cursor: pointer;
    }
@@ -47,7 +53,7 @@ body {
    background-color: #EDDCD2;
 }
 
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 1200px) {
    .menu a {
       cursor: pointer;
    }
@@ -128,7 +134,7 @@ body {
    height: 25px;
 }
 
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 1200px) {
    .button a{
       cursor: pointer;
    }
@@ -180,32 +186,37 @@ body {
 /*-------------------------------- YouTube Iframe---*/
 
 .iframe-container {
-   position: relative;
    width: 100%;
-   padding-bottom: 70%;
-   height: 0;
-   margin-bottom: 20px;
+   height: 300px;
 }
 
 .iframe-container iframe {
-   position: absolute;
-   top: 0;
-   left: 0;
    width: 100%;
    height: 100%;
 }
 
 @media only screen and (min-width: 768px) {
+   .iframe-container {
+      height: 700px;
+   }
    .iframe-container iframe {
-      width: 75%;
-      margin: 0 13%;
+      float: right;
+      width: 100%;
+      padding: 5% 10%;
+      box-sizing: border-box;
       height: 100%;
    }
 }
 
 @media only screen and (min-width: 1366px) {
+   .iframe-container {
+      height: 1200px;
+   }
    .iframe-container iframe {
-      width: 75%;
+      float: right;
+      width: 100%;
+      padding: 5% 10%;
+      box-sizing: border-box;
       height: 100%;
    }
 }
@@ -228,59 +239,48 @@ body {
 }
 
 .item1 {
-   grid-column-start: 1;
-   grid-column-end: 6;
-   grid-row-start: 1;
-   grid-row-end: 3;
+   grid-column: 1 / span 6;
+   grid-row: 1 / span 3;
 }
 
 .item2 {
-   grid-column-start: 7;
-   grid-column-end: 12;
-   grid-row-start: 1;
-   grid-row-end: 3;
+   grid-column: 7 / span 5;
+   grid-row: 1 / span 3;
 }
 
 .item3 {
-   grid-column-start: 1;
-   grid-column-end: 6;
-   grid-row-start: 4;
-   grid-row-end: 6;
+   grid-column: 1 / span 6;
+   grid-row: 4 / span 3;
 }
 
 .item4 {
-   grid-column-start: 7;
-   grid-column-end: 12;
-   grid-row-start: 3;
-   grid-row-end: 6;
+   grid-column: 7 / span 5;
+   grid-row: 4 / span 3;
 }
 @media only screen and (min-width: 1024px) {
+   .grid-container {
+      grid-template-rows: repeat(2, 7vw);
+      grid-template-columns: repeat(16, 1fr);
+      grid-gap: 30px;
+   }
    .item1 {
-      grid-column-start: 1;
-      grid-column-end: 3;
-      grid-row-start: 1;
-      grid-row-end: 3;
+      grid-column: 1 / span 4;
+      grid-row: 1 / span 2;
    }
    
    .item2 {
-      grid-column-start: 4;
-      grid-column-end: 6;
-      grid-row-start: 1;
-      grid-row-end: 3;
+      grid-column: 4 / span 4;
+      grid-row: 1 / span 2;
    }
    
    .item3 {
-      grid-column-start: 7;
-      grid-column-end: 9;
-      grid-row-start: 1;
-      grid-row-end: 3;
+      grid-column: 8 / span 4;
+      grid-row: 1 / span 2;
    }
    
    .item4 {
-      grid-column-start: 10;
-      grid-column-end: 12;
-      grid-row-start: 1;
-      grid-row-end: 3;
+      grid-column: 12 / span 4;
+      grid-row: 1 / span 2;
    }
 }
 
@@ -542,7 +542,7 @@ body {
    height: 25px;
 }
 
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 1200px) {
    .form-button {
       cursor: pointer;
    }
@@ -617,7 +617,11 @@ input[type=textarea]:focus {
 /*-------------------------------- Footer---*/
 
 footer {
-   height: 70px;
+   width: 100%;
+}
+
+.footer-container {
+   width: 100%;
    background-color: #EDDCD2;
 }
 
