@@ -114,9 +114,9 @@ body {
 }
 
 .flex-box {
-   width: 80%;
+   width: 90%;
    text-align: center;
-   margin-left: 10%;
+   margin-left: 5%;
 }
 
 @media only screen and (min-width: 1024px) {
@@ -156,7 +156,8 @@ body {
    text-transform: uppercase;
    padding-top: 20px;
    clear: both;
-   
+   margin-top: 2em;
+   margin-bottom: 1em;
 }
 
 .flex-box p {
@@ -306,7 +307,8 @@ body {
    grid-template-rows: repeat(6, 7vw);
    grid-template-columns: repeat(12, 1fr);
    grid-gap: 10px;
-   margin-top: 35px;
+   margin-top: 3em;
+   margin-bottom: 3em;
 }
 
 .grid-container img {
