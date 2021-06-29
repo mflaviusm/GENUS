@@ -16,12 +16,12 @@ Genus was created for my Milestone 1 project in the Full Stack Web Development c
 
 GENUS was designed with the user in mind to offer the best possible UX and UI.
 
-## Table of Contents
+# Table of Contents
 
 1. [ Project Goals](https://github.com/mflaviusm/GENUS#project-goals)
 2. [UX]()
 3. [ Strategy Plane]()
-    * User Stories
+    * [User Stories] ()
 4. [ Scope Plane]()
     * [ Existing Features]()
     * [ Features left to implement]()
@@ -43,8 +43,10 @@ GENUS was designed with the user in mind to offer the best possible UX and UI.
   * To present users with various communication channels
   * To provide content on video games
 
+## UX
+UX design and principle were central and of an upmost importance for the development of this website. The five planes were used when planning the website structure and content and throughout the building of the website.
 
-## Strategy Plane
+# Strategy Plane
 ### Client Goals
 * As a client I was an website to increase awareness of my community.
 * As a client, I was a clever platform where I can engage with my visitors.
@@ -52,6 +54,56 @@ GENUS was designed with the user in mind to offer the best possible UX and UI.
 * As a client, I will look for information that is displayed and conveyed accordingly to persuade users to join my community.
 
 ## User Stories
+* As a visitor, I want to understand what audience the website is targeting.
+* As a visitor, I want to find information about the GENUS community and what it has to offer.
+* As a visitor, I want to navigate the website easily to find what I need.
+* As a visitor, I want to see pictures of people playing video games together.
+* As a visitor, I want to find social media links to be able to enjoy what GENUS has to offer.
+* As a visitor, I want to be able to get in touch to get my queries solved.
+
+## Opportunity Goal Table
+
+At the early stages of the development, the opportunities for the website were determined and ranked according to their viability and importance.
+
+| Opportunity | Importance | Viability |
+| ----------- | ---------- | --------- |
+| 1. Develop an online presence| 5 | 5 |
+| 2. Increase the number of community members | 5 | 4 |
+| 3. Promote the community | 5 | 5 |
+| 4. Promote giveaways and contests | 4 | 3 |
+| 5. Increase user feedback | 4 | 4 |
+| 6. Provide contact information | 5 | 3 |
+| 7. Increase the number of newsletter subscribers | 3 | 1 |
+| 8. Online forum | 4 | 1 |
+| 8. Offer live support | 4 | 1 |
+
+
+# Scope Plane
+
+Whilst working on the strategy stage of the development, features were verified against the viability and importance criteria. This ensured the project will not go beyond its short-term goals, therefore each feature has been categorised for immediate or future releases. The table below highlights each feature and its release date.
+
+| Feature | Release | 
+| ----------- | ---------- | 
+| Develop an online presence | 1|
+| Increase social media following | 1 |
+| Promote the community | 2 |
+| Promote giveaways and contests | 2 |
+| Increase user feedback | 1| 
+| Provide contact information | 1|
+| Online forum | 3 | 
+| Offer live support | 3 |
+
+
+*1 - Immediate Release 2 - Short-term release 3 - Long-term*
+
+
+## Existing Features
+
+* Mobile-first responsive design
+  * GENUS has been developed as a mobile first design at its core to allow users to easily navigate and have an enjoyable experience whilst browsing the website. The website has be catered to behave responsively  no matter the platform using Cascading Style Sheets.
+* Navigation Bar
+  * The navigation bar is present on each page and will stay at the top even when the users scroll through the website. This allows users to be able to navigate throughout the website content without having to scroll all the way to the top each time they want visit a different page of the website.
+  * The navigation menu is present at all times within the bar under different shapes depending on the device. On small screens it can be found in the top-right hand corner under the shape of a hamburger, whilst on bigger screen it is layed with each page available for the website.
 
 
 
@@ -65,12 +117,3 @@ GENUS was designed with the user in mind to offer the best possible UX and UI.
 
 
 
-
-
-
-
-
-
-
-## UX
-UX design and principle were central and of an upmost importance for the development of this website. The five planes were used when planning the website structure and content and throughout the building of the website.
