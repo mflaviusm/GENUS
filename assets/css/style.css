@@ -3,7 +3,6 @@
    margin: 0;
    padding: 0;
    border: none;
-   cursor: default;
 }
 
 body {
@@ -46,11 +45,12 @@ body {
 
 .menu a {
    text-decoration: none;
-   color: #CB997E;
+   color: #000000;
    margin: 0 10px;
    line-height: 70px;
    clear: right;
    background-color: #EDDCD2;
+   font-weight: bolder;
 }
 
 @media only screen and (min-width: 1200px) {
@@ -110,6 +110,7 @@ body {
    flex-flow: column wrap;
    justify-content: center;
    width: 100%;
+
 }
 
 .flex-box {
@@ -124,6 +125,14 @@ body {
       text-align: center;
       margin-left: 15%;
    }
+
+   .flex-box h2 {
+      font-size:x-large;
+   }
+
+   .flex-box p {
+      font-size:large;
+   }
 }
 
 @media only screen and (min-width: 1366px) {
@@ -132,6 +141,14 @@ body {
       text-align: center;
       margin-left: 20%;
    }
+
+   .flex-box h2 {
+      font-size:xx-large;
+   }
+
+   .flex-box p {
+      font-size:x-large;
+   }
 }
 
 .flex-box h2 {
@@ -139,6 +156,7 @@ body {
    text-transform: uppercase;
    padding-top: 20px;
    clear: both;
+   
 }
 
 .flex-box p {
@@ -172,18 +190,48 @@ body {
    
 .button {
    background-color: #A5A58D;
-   width: 150px;
-   height: 25px;
+   width: 15em;
+   height: 2em;
    text-decoration: none;
    padding: 1em 2em 1em 2em;
    color: #F0EFEB;
    font-family: KoHo, sans-serif;
+   margin-top: 10%;
 }
 
 @media only screen and (min-width: 1200px) {
    .button {
       cursor: pointer;
    }
+}
+
+.grid-intro-gallery {
+   display: grid;
+   grid-template-rows: repeat(1, 7vw);
+   grid-template-columns: repeat(10, 1fr);
+   grid-gap: 1em;
+   margin: 3em 0 3em 0;
+}
+
+.grid-intro-gallery img {
+   width: 100%;
+   height: 100%;
+   object-fit: cover;
+}
+
+.grid-intro-gallery img:nth-child(1) {
+   grid-column: 2 / span 5;
+      grid-row: 1 / span 3;
+}
+
+.grid-intro-gallery img:nth-child(2) {
+   grid-column: 2 / span 5;
+      grid-row: 4 / span 3;
+}
+
+.grid-intro-gallery img:nth-child(3) {
+   grid-column: 7 / span 3;
+      grid-row: 1 / span 6;
 }
 
 .flex-box-form {
@@ -609,8 +657,29 @@ textarea:focus {
    }
 }
 
-/*-------------------------------- Founder Section Grid---*/
+@media only screen and (min-width: 1024px) {
+   .flex-box-form2 h2 {
+      font-size: x-large;
+   }
 
+   .flex-box-form2 {  
+      font-size:large;
+   }
+}
+
+@media only screen and (min-width: 1366px) {
+   .flex-box-form2 h2 {
+      font-size: x-large;
+   }
+
+   .flex-box-form2 {  
+      font-size:large;
+   }
+}
+
+
+
+/*-------------------------------- Founder Section Grid---*/
 .grid-container2 {
    display: grid;
    grid-template-rows: repeat(7, 7vw);
