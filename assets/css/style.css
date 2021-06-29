@@ -218,7 +218,7 @@ body {
 
 .grid-intro-gallery {
    display: grid;
-   grid-template-rows: repeat(1, 7vw);
+   grid-template-rows: repeat(6, 7vw);
    grid-template-columns: repeat(10, 1fr);
    grid-gap: 1em;
    margin: 3em 0 3em 0;
@@ -245,26 +245,6 @@ body {
       grid-row: 1 / span 6;
 }
 
-.flex-box-form {
-   font-family: Inter, sans-serif;
-   margin: 20px 50px;
-   text-align: center;
-   border: 1px solid #A5A58D;
-   background-color: #EDDCD2;
-   padding: 15px 50px;
-   width: auto;
-   height: 225px;
-   margin-bottom: 25px;
-}
-
-.flex-box-form h3 {
-   font-family: KoHo, sans-serif;
-   padding: 5px 0 10px 0;
-}
-
-.flex-box-form p {
-   padding-bottom: 15px;
-}
 
 .flex-container2 {
    display: flex;
@@ -587,20 +567,9 @@ body {
 }
 /*-------------------------------- Form Features---*/
 
-.flex-box-form input[type=text], input[type=email] {
-   width: 100%;
-   height: 25px;
-}
-
-@media only screen and (min-width: 768px) {
-   .flex-box-form input[type=text], input[type=email] {
-      width: 50%;
-   }
-}
-
 .flex-box-form2 {
    font-family: Inter, sans-serif;
-   margin: 20px 50px;
+   margin: 20px ;
    text-align: center;
    border: 1px solid #A5A58D;
    background-color: #EDDCD2;
@@ -615,21 +584,29 @@ body {
    padding: 20px 0 20px 0;
 }
 
-.flex-box-form2 p {
-   padding-bottom: 20px;
-}
-
 .flex-box-form2 label {
    font-family: Inter, sans-serif;
    width: 100%;
    text-align: center;
-   line-height: 20px; 
+   line-height: 20px; w
 }
 
 .form-button {
    background-color: #A5A58D;
    width: 150px;
    height: 25px;
+}
+
+@media only screen and (min-width: 768px) {
+   .form-button {
+      height: 40px;
+   }
+}
+
+@media only screen and (min-width: 1366px) {
+   .form-button {
+      height: 60px;
+   }
 }
 
 @media only screen and (min-width: 1200px) {
@@ -640,7 +617,7 @@ body {
 
 .flex-box-form2 input[type=text], input[type=email] {
    width: 100%;
-   height: 25px;
+   height: 2em;
 }
 
 .flex-box-form2 textarea {
@@ -661,31 +638,72 @@ textarea:focus {
 }
 
 @media only screen and (min-width: 768px) {
+   .flex-box-form2 {
+      font-family: Inter, sans-serif;
+      text-align: center;
+      border: 1px solid #A5A58D;
+      background-color: #EDDCD2;
+      padding: 20px 50px;
+      width: auto;
+      height: 30em;
+      margin: 5% 20%;
+   }
+
+   .flex-box-form2 h3 {
+      font-family: KoHo, sans-serif;
+      padding: 1em 0 2em 0;
+      letter-spacing: 2px;
+      text-transform: capitalize;
+      font-size: x-large;
+   }
+
+   .flex-box-form2 label {
+      font-size: large;
+   }
+
    .flex-box-form2 input[type=text], input[type=email] {
-      width: 50%;
+      width: 80%;
+      height: 2em;
    }
+
    .flex-box-form2 textarea {
-      width: 50%;
+      width: 80%;
+      height: 12em;
    }
 }
 
-@media only screen and (min-width: 1024px) {
-   .flex-box-form2 h2 {
+@media only screen and (min-width: 768px) {
+   .flex-box-form2 {
+      font-family: Inter, sans-serif;
+      text-align: center;
+      border: 1px solid #A5A58D;
+      background-color: #EDDCD2;
+      padding: 20px 50px;
+      width: auto;
+      height: 41em;
+      margin: 5% 20%;
+   }
+
+   .flex-box-form2 h3 {
+      font-family: KoHo, sans-serif;
+      padding: 1em 0 2em 0;
+      letter-spacing: 2px;
+      text-transform: capitalize;
+      font-size: xx-large;
+   }
+
+   .flex-box-form2 label {
       font-size: x-large;
    }
 
-   .flex-box-form2 {  
-      font-size:large;
-   }
-}
-
-@media only screen and (min-width: 1366px) {
-   .flex-box-form2 h2 {
-      font-size: x-large;
+   .flex-box-form2 input[type=text], input[type=email] {
+      width: 80%;
+      height: 3em;
    }
 
-   .flex-box-form2 {  
-      font-size:large;
+   .flex-box-form2 textarea {
+      width: 80%;
+      height: 15em;
    }
 }
 
