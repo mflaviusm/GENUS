@@ -1,8 +1,8 @@
 # GENUS
 
-GENUS in a mobile-first website create with the goal of bringing gamers together. Gaming is in an art, a sport, a lifestyle. Video games have been around for over 4 decades and have evolved considerably. Nowadays games are used in various ways to enhance skills, blow off steam after a long day or relax during time off.
+GENUS is a mobile-first website created to bring gamers together. Gaming is an art, a sport, a lifestyle. Video games have been around for over 4 decades and have evolved considerably. Nowadays games are used in various ways to enhance skills, blow off steam after a long day or relax during time off.
 
-Genus has been designed with gamers at its core. Visitors will be welcome with information about our community and our ethos. They will find information about our various channels such as Twitch, YouTube or Discord. They will be able to browse through our gallery to see what and how we play video games. They will also find contact us form to send us any queries and additional information of other channels available to reach us. 
+Genus has been designed with gamers at its core. Visitors will be welcome with information about our community and our ethos. They will find information about our various channels such as Twitch, YouTube or Discord. They will be able to browse through our gallery to see what and how we play video games. They will also find a contact us form to send us any queries and additional information of other channels available to reach us. 
 
 The primary goal of this website is to inform users of who we are and what we do and why they should join us.
 
@@ -22,7 +22,7 @@ GENUS was designed with the user in mind to offer the best possible UX and UI.
 2. [UX]()
 3. [ Strategy Plane]()
     * [User Stories](https://github.com/mflaviusm/GENUS#user-stories)
-4. [ Scope Plane]()
+4. [ Scope Plane](https://github.com/mflaviusm/GENUS/#user-stories)
     * [ Existing Features]()
     * [ Features left to implement]()
 5.  [ Structure Plane]()
@@ -44,11 +44,11 @@ GENUS was designed with the user in mind to offer the best possible UX and UI.
   * To provide content on video games
 
 ## UX
-UX design and principle were central and of an upmost importance for the development of this website. The five planes were used when planning the website structure and content and throughout the building of the website.
+UX design and principle were central and of the utmost importance for the development of this website. The five planes were used when planning the website structure and content and throughout the building of the website.
 
 # Strategy Plane
 ### Client Goals
-* As a client I was an website to increase awareness of my community.
+* As a client I was a website to increase awareness of my community.
 * As a client, I was a clever platform where I can engage with my visitors.
 * As a client, I want to offer my visitors an excellent user experience that will make them want to return.
 * As a client, I will look for information that is displayed and conveyed accordingly to persuade users to join my community.
@@ -56,7 +56,7 @@ UX design and principle were central and of an upmost importance for the develop
 ## User Stories
 * As a visitor, I want to understand what audience the website is targeting.
 * As a visitor, I want to find information about the GENUS community and what it has to offer.
-* As a visitor, I want to navigate the website easily to find what I need.
+* As a visitor, I want to navigate the website easily and find what I need.
 * As a visitor, I want to see pictures of people playing video games together.
 * As a visitor, I want to find social media links to be able to enjoy what GENUS has to offer.
 * As a visitor, I want to be able to get in touch to get my queries solved.
@@ -100,13 +100,13 @@ Whilst working on the strategy stage of the development, features were verified 
 ## Existing Features
 
 * Mobile-first responsive design
-  * GENUS has been developed as a mobile first design at its core to allow users to easily navigate and have an enjoyable experience whilst browsing the website. The website has be catered to behave responsively  no matter the platform using Cascading Style Sheets.
+  * GENUS has been developed as a mobile-first design at its core to allow users to easily navigate and have an enjoyable experience whilst browsing the website. The website has been catered to behave responsively no matter the platform using Cascading Style Sheets.
 * Navigation Bar
-  * The navigation bar is present on each page and will stay at the top even when the users scroll through the website. This allows users to be able to navigate throughout the website content without having to scroll all the way to the top each time they want visit a different page of the website.
-  * The navigation menu is present at all times within the bar under different shapes depending on the device. On small screens it can be found in the top-right hand corner under the shape of a hamburger, whilst on bigger screen it is layed with each page available for the website.
+  * The navigation bar is present on each page and will stay at the top even when the users scroll through the website. This allows users to be able to navigate throughout the website content without having to scroll to the top each time they want to visit a different page of the website.
+  * The navigation menu is present at all times within the bar under different shapes depending on the device. On small screens, it can be found in the top-right hand corner under the shape of a hamburger, whilst on a bigger screen, it is laid out with each page available for the website.
 * The Landing Page
   * The landing presents the visitor to GENUS. It uses a hero image of two people playing video games which helps the user understand what the website is about.
-  * The landing page also are prompted with a welcome message together with Read More button that takes the visitor to the Community Page.
+  * The landing page also are prompted with a welcome message together with a Read More button that takes the visitor to the Community Page.
 * Our promise/ ethos section
   * In our promise section visitors are presented with the values of GENUS and what the community is trying to achieve for its members.
   * In our ethos section visitors can read about the core principle and interest of GENUS which is: **Games make us better!**
@@ -123,21 +123,21 @@ Whilst working on the strategy stage of the development, features were verified 
   * The users are presented with a series of games that have weekly tournaments.
   * The users are also offered a button to the Reddit community page of GENUS for detailed information about the events and giveaways, but also the community in general.
   * The community page also offers a section with members reviews to emphasize the quality of the services offered by the community and why people should join it.
-  * The community page also contains information on the founder of the community which shows that GENUS in true to its purpose.
+  * The community page also contains information on the founder of the community which shows that GENUS is true to its purpose.
 * The gallery page
-  * It contains a gallery of images taken at meetup of members from the community or from individual play sessions.
-  * Depending on the device the website is acessed it has different breakpoints offering less pictures on a mobile device and more on a desktop screen.
+  * It contains a gallery of images taken at a meetup of members from the community or individual play sessions.
+  * Depending on the device the website is accessed it has different breakpoints offering fewer pictures on a mobile device and more on a desktop screen.
 * The contact us page
-  * It presents the visitors with a enquiry form for both business community enquiries.
-  * It also offers additional communication channels and the availablity for them.
+  * It presents the visitors with an enquiry form for both business community enquiries.
+  * It also offers additional communication channels and availability for them.
 
 ## Features not implemented 
 
 * Online forum
-  * A forum that would allow users to discuss on various topics, post helpful tips, ask for help, create articles and threads related to gaming.
+  * A forum that would allow users to discuss various topics, post helpful tips, ask for help, create articles and threads related to gaming.
 
 * Online live support
-  * A online chat service available 24/7 to allow users and visitors to have their queries solved in minimal wait time.
+  * An online chat service available 24/7 to allow users and visitors to have their queries solved in minimal wait time.
 
 * Newsletter
   * Create a community newsletter that will contain any updates from the gaming industry, events and giveaways from GENUS.
@@ -148,7 +148,7 @@ Whilst working on the strategy stage of the development, features were verified 
 
 The website has been designed to be simple and easy to navigate. Any future updates will be supported with the current hierarchical structure.
 
-The navigation bar has been desiged to be always on top to ensure visitors can easily find information and navigate through the website's various pages.
+The navigation bar has been designed to be always on top to ensure visitors can easily find information and navigate through the website's various pages.
 
 #Skeleton Plane
 
@@ -164,13 +164,13 @@ This project has had its wireframes developed using [Figma](https://www.figma.co
 | [Mobile Contact Us Page](assets/readme-images/contact-us.png) | [Tablet Contact Us Page](assets/readme-images/tablet-contact-us.png) | [Desktop Contact Us Page](assets/readme-images/desktop.contact-us.png) |
 
 ## Changes to Wireframes
-Throughout the development of the website, some change have been made.
+Throughout the development of the website, some changes have been made.
 
 1. Landing page newsletter form 
   * The sign-up form on the landing page has been removed as the newsletter is yet to be implemented.
 
 2. Twitch Stream Iframe 
-  * The Twitch iframe has been removed from the community page as the it was unnecessary content. Visitors still have the option to access our Twitch stream from the footer of the website.
+  * The Twitch iframe has been removed from the community page as it was unnecessary content. Visitors still have the option to access our Twitch stream from the footer of the website.
 
 3. The founder section
   * The Founder section has been moved from the Contact Us page to the community page as given its content and purpose it was more suited to the community page.
@@ -182,17 +182,17 @@ Throughout the development of the website, some change have been made.
   * The business and partnership section has been merged with the additional communication channels for members and visitors and both serve the same purpose and having them separately was pointless.
 
 # Surface Plane
- The color pallete choice was thought as a representation of positivity and belongingness.
+ The colour palette choice was thought of as a representation of positivity and belongingness.
 
 ## Colour Pallete
 
-During the initial development a choice of warm colours was used to be more pleasant and welcoming to our visitors.
+During the initial development, a choice of warm colours was used to be more pleasant and welcoming to our visitors.
 
-The initial pallete was chosen using [Coolors.](https://coolors.co/)
+The initial colour palette was chosen using [Coolors.](https://coolors.co/)
 
-![Colours pallete](assets/readme-images/initial-colours-pallete.png)
+![Colours palete](assets/readme-images/initial-colours-pallete.png)
 
-After the development was finished the colour pallete was altered, the below colours being used as definitive choices.
+After the development was finished the colour palette was altered, the below colours being used as definitive choices.
 
 ![Final colours pallete](assets/readme-images/final-pallete.png)
 
@@ -206,9 +206,9 @@ The images used in the development help emphasize the purpose of GENUS and offer
 
   ## Frameworks and Libraries
 
- - [Am I Responsive?](http://ami.responsivedesign.is/) was used to create the mock ups.
+ - [Am I Responsive?](http://ami.responsivedesign.is/) was used to create the mockups.
  - [Figma](https://www.figma.com/) was used to design the wireframes.
- - [Coolors](https://coolors.co/) was used to choose the colour pallete for the project.
+ - [Coolors](https://coolors.co/) was used to choose the colour palette for the project.
  - [Font Awesome](https://fontawesome.com/) was used for the social links icons.
  - [GitHub](https://github.com/) was used to store the repository.
  - Git was used for version control and push code to GitHub.
@@ -217,10 +217,52 @@ The images used in the development help emphasize the purpose of GENUS and offer
  - [Pexels](https://www.pexels.com/) was used to get stock images.
 
 # Testing
-
+All the testing information can be found in a separate [README](testing-file.md) file.
 
 
 # Deployment
+The deployment of the project to a live server was done with the following steps:
+
+  - Each change was added and committed in VSC and pushed to GitHub.
+  - Login to GitHub account.
+  - Locate the MS1 repository.
+  - Top right corner, locate settings and click it.
+  -On the left side of the menu locate the Pages section and click it.
+  - Locate Source in Pages and click the dropdown menu and select master.
+  - Next click save.
+  - The page will automatically refresh and present you with a link above the Source, which is the link to the live site. The like may take a few minutes to become available until the deployment is finished.
+  - The deployed version is the same as the development version for the project.
+
+# Forking the GitHub Repository
+The repository forking is possible on GitHub. It creates a copy of the repository which can be viewed and amended without affecting the original. To fork the repository use the following steps:
+ - Login to GitHub and locate the repository.
+ - At the top right, under the avatar click the Fork button.
+ - A copy has now been created to your GitHub account.
+
+# Cloning the repository
+The repository can be cloned and doing so creates a copy on your pc. The copy can be modified and it will not affect the original repository. Please follow the next steps to clone the repository:
+ - Login to GitHub and locate the repository.
+ - Click on the 'Code' button.
+ - Copy the HTTPS link provided.
+ - Go to your prefered IDE and open the terminal.
+ - Change your current directory to the file path you want to clone the repository.
+ - Type 'git clone' followed the link copied previously.
+ - Press enter to create the clone.
+ - For additional information, please refer to the GitHub documentation.
+
+ # Credits
+ 
+ ## Content
+ All the content was written by the developer.
+
+ ## Media
+
+ Images from Pexels and owned by the developer were used in this project.
+
+ # Acknowledgements
+ To my mentor Rahul for providing invaluable advice and support.
+ Code Institute for their support.
+ Slack community members for offering advice and feedback.
 
 
 
