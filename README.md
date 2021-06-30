@@ -194,7 +194,34 @@ The initial pallete was chosen using [Coolors.](https://coolors.co/)
 
 After the development was finished the colour pallete was altered, the below colours being used as definitive choices.
 
-![Final colours pallete]()
+![Final colours pallete](assets/readme-images/final-pallete.png)
+
+## Images
+The images used in the development help emphasize the purpose of GENUS and offer a glimpse into the community.
+
+# Technologies
+## Languages
+  - HyperText Markup Language
+  - Cascading Style Sheets 3 
+
+  ## Frameworks and Libraries
+
+ - [Am I Responsive?](http://ami.responsivedesign.is/) was used to create the mock ups.
+ - [Figma](https://www.figma.com/) was used to design the wireframes.
+ - [Coolors](https://coolors.co/) was used to choose the colour pallete for the project.
+ - [Font Awesome](https://fontawesome.com/) was used for the social links icons.
+ - [GitHub](https://github.com/) was used to store the repository.
+ - Git was used for version control and push code to GitHub.
+ - [Visual Studio Code](https://code.visualstudio.com/) was used as IDE for the development of the website.
+ - [Lamdatest](https://www.lambdatest.com/lp/cross-browser-testing/) was used to check browser compatibility.
+ - [Pexels](https://www.pexels.com/) was used to get stock images.
+
+# Testing
+
+
+
+# Deployment
+
 
 
 

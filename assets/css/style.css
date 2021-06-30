@@ -571,8 +571,8 @@ body {
    font-family: Inter, sans-serif;
    margin: 20px ;
    text-align: center;
-   border: 1px solid #A5A58D;
-   background-color: #EDDCD2;
+   border: 1px solid #606C38;
+   background-color: #606C38;
    padding: 20px 50px;
    width: auto;
    height: 350px;
@@ -588,7 +588,7 @@ body {
    font-family: Inter, sans-serif;
    width: 100%;
    text-align: center;
-   line-height: 20px;
+   line-height: 2em;
 }
 
 .form-button {
@@ -642,11 +642,11 @@ textarea:focus {
    .flex-box-form2 {
       font-family: Inter, sans-serif;
       text-align: center;
-      border: 1px solid #A5A58D;
-      background-color: #EDDCD2;
+      border: 1px solid #606C38;
+      background-color: #606C38;
       padding: 20px 50px;
       width: auto;
-      height: 30em;
+      height: 35em;
       margin: 5% 20%;
    }
 
@@ -673,15 +673,15 @@ textarea:focus {
    }
 }
 
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 1200px) {
    .flex-box-form2 {
       font-family: Inter, sans-serif;
       text-align: center;
-      border: 1px solid #A5A58D;
+      border: 1px solid #606C38;
       background-color: #606C38;
       padding: 20px 50px;
       width: auto;
-      height: 41em;
+      height: 45em;
       margin: 5% 20%;
    }
 
@@ -731,6 +731,7 @@ textarea:focus {
 
 .grid-item3 p {
    font-size: small;
+   color: #BC6C25;
 }
 
 .grid-item1 {
