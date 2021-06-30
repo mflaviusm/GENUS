@@ -19,20 +19,20 @@ GENUS was designed with the user in mind to offer the best possible UX and UI.
 # Table of Contents
 
 1. [ Project Goals](https://github.com/mflaviusm/GENUS#project-goals)
-2. [UX]()
-3. [ Strategy Plane]()
+2. [UX](https://github.com/mflaviusm/GENUS#ux)
+3. [ Strategy Plane](https://github.com/mflaviusm/GENUS#strategy-plane)
     * [User Stories](https://github.com/mflaviusm/GENUS#user-stories)
-4. [ Scope Plane](https://github.com/mflaviusm/GENUS/#user-stories)
-    * [ Existing Features]()
-    * [ Features left to implement]()
-5.  [ Structure Plane]()
-6.  [ Skeleton Plane]()
-7.  [ Surface Plane]()
-8. [ Technologies]()
-9. [ Testing](testing.md)
-10. [Deployment]()
-11. [Credits]()
-12. [Acknowledgements]()
+4. [ Scope Plane](https://github.com/mflaviusm/GENUS/#scope-plane)
+    * [ Existing Features](https://github.com/mflaviusm/GENUS#existing-features)
+    * [ Features not implement](https://github.com/mflaviusm/GENUS#features-not-implemented)
+5.  [ Structure Plane](https://github.com/mflaviusm/GENUS#structure-plane)
+6.  [ Skeleton Plane](https://github.com/mflaviusm/GENUS#skeleton-plane)
+7.  [ Surface Plane](https://github.com/mflaviusm/GENUS#surface-plane)
+8. [ Technologies](https://github.com/mflaviusm/GENUS#technologies)
+9. [ Testing](https://github.com/mflaviusm/GENUS#testing)
+10. [Deployment](https://github.com/mflaviusm/GENUS#deployment)
+11. [Credits](https://github.com/mflaviusm/GENUS#credits)
+12. [Acknowledgements](https://github.com/mflaviusm/GENUS#acknowledgements)
 
 
 
@@ -150,7 +150,7 @@ The website has been designed to be simple and easy to navigate. Any future upda
 
 The navigation bar has been designed to be always on top to ensure visitors can easily find information and navigate through the website's various pages.
 
-#Skeleton Plane
+# Skeleton Plane
 
 ## Wireframes
 
@@ -158,7 +158,7 @@ This project has had its wireframes developed using [Figma](https://www.figma.co
 
 | Mobile | Tablet| Desktop|
 --------------------|--------------------|--------------------------|
-| [Mobile Home Page](assets/readme-images/mobile-homapge.png) | [Tablet Home Page](assets/readme-images/tablet-homepage.png) | [Desktop Home Page](assets/readme-images/desktop-homepage.png) |
+| [Mobile Home Page](assets/readme-images/mobile-homepage.png) | [Tablet Home Page](assets/readme-images/tablet-homepage.png) | [Desktop Home Page](assets/readme-images/desktop-homepage.png) |
 | [Mobile Community Page](assets/readme-images/mobile-community.png) | [Tablet Community Page](assets/readme-images/tablet-community.png) | [Desktop Community Page](assets/readme-images/desktop-community.png) |
 | [Mobile Gallery](assets/readme-images/mobile-gallery.png) | [Tablet Gallery Page](assets/readme-images/tablet-gallery.png) | [Desktop Gallery Page](assets/readme-images/desktop-gallery.png) |
 | [Mobile Contact Us Page](assets/readme-images/contact-us.png) | [Tablet Contact Us Page](assets/readme-images/tablet-contact-us.png) | [Desktop Contact Us Page](assets/readme-images/desktop.contact-us.png) |
