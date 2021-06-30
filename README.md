@@ -104,6 +104,57 @@ Whilst working on the strategy stage of the development, features were verified 
 * Navigation Bar
   * The navigation bar is present on each page and will stay at the top even when the users scroll through the website. This allows users to be able to navigate throughout the website content without having to scroll all the way to the top each time they want visit a different page of the website.
   * The navigation menu is present at all times within the bar under different shapes depending on the device. On small screens it can be found in the top-right hand corner under the shape of a hamburger, whilst on bigger screen it is layed with each page available for the website.
+* The Landing Page
+  * The landing presents the visitor to GENUS. It uses a hero image of two people playing video games which helps the user understand what the website is about.
+  * The landing page also are prompted with a welcome message together with Read More button that takes the visitor to the Community Page.
+* Our promise/ ethos section
+  * In our promise section visitors are presented with the values of GENUS and what the community is trying to achieve for its members.
+  * In our ethos section visitors can read about the core principle and interest of GENUS which is: **Games make us better!**
+* Homepage gallery
+  * The homepage gallery is a preview of what GENUS does as a community. Visitors are presented with a picture of a gaming set-up and some more of people enjoying video games in the company of others.
+* Footer 
+  * The footer is the same throughout the website to ensure consistency and a good user experience.
+  * The footer uses [Font Awesome](https://fontawesome.com/) for the various platforms GENUS is present at the moment. The pages open in a new tab when clicked on.
+  * Offering easy access to social links will benefit GENUS as users can easily follow the community outside the website.
+*  Our community page
+  * The user is presented with information about what the community does in detail to help them fully understand the scope and purpose of GENUS.
+  * It is then followed by a quick video of a person playing video games to spark their interest further.
+  * Next section is the events where visitors will be able to find information about the events and giveaways within the community.
+  * The users are presented with a series of games that have weekly tournaments.
+  * The users are also offered a button to the Reddit community page of GENUS for detailed information about the events and giveaways, but also the community in general.
+  * The community page also offers a section with members reviews to emphasize the quality of the services offered by the community and why people should join it.
+  * The community page also contains information on the founder of the community which shows that GENUS in true to its purpose.
+* The gallery page
+  * It contains a gallery of images taken at meetup of members from the community or from individual play sessions.
+  * Depending on the device the website is acessed it has different breakpoints offering less pictures on a mobile device and more on a desktop screen.
+* The contact us page
+  * It presents the visitors with a enquiry form for both business community enquiries.
+  * It also offers additional communication channels and the availablity for them.
+
+## Features not implemented 
+
+* Online forum
+  * A forum that would allow users to discuss on various topics, post helpful tips, ask for help, create articles and threads related to gaming.
+
+* Online live support
+  * A online chat service available 24/7 to allow users and visitors to have their queries solved in minimal wait time.
+
+* Newsletter
+  * Create a community newsletter that will contain any updates from the gaming industry, events and giveaways from GENUS.
+
+
+
+# Structure Plane
+
+The website has been designed to be simple and easy to navigate. Any future updates will be supported with the current hierarchical structure.
+
+The navigation bar has been desiged to be always on top to ensure visitors can easily find information and navigate through the website's various pages.
+
+#Skeleton Plane
+
+## Wireframes
+
+This project has had its wireframes developed using [Figma](https://www.figma.com/)
 
 
 
