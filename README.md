@@ -213,7 +213,9 @@ The images used in the development help emphasize the purpose of GENUS and offer
  - [GitHub](https://github.com/) was used to store the repository.
  - Git was used for version control and push code to GitHub.
  - [Visual Studio Code](https://code.visualstudio.com/) was used as IDE for the development of the website.
- - [Lamdatest](https://www.lambdatest.com/lp/cross-browser-testing/) was used to check browser compatibility.
+ - [Lamdatest](https://www.lambdatest.com/lp/cross-browser-testing/) was used to check responsiveness.
+ - [PageSpeed Insights](https://developers.google.com/speed/pagespeed/insights/) was used to check responsiveness.
+ - [BrowserStack](https://www.browserstack.com/) was used to check browser compatibility.
  - [Pexels](https://www.pexels.com/) was used to get stock images.
 
 # Testing
@@ -261,7 +263,9 @@ The repository can be cloned and doing so creates a copy on your pc. The copy ca
 
  # Acknowledgements
  To my mentor Rahul for providing invaluable advice and support.
+
  Code Institute for their support.
+
  Slack community members for offering advice and feedback.
 
 
