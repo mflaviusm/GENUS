@@ -163,6 +163,39 @@ This project has had its wireframes developed using [Figma](https://www.figma.co
 | [Mobile Gallery](assets/readme-images/mobile-gallery.png) | [Tablet Gallery Page](assets/readme-images/tablet-gallery.png) | [Desktop Gallery Page](assets/readme-images/desktop-gallery.png) |
 | [Mobile Contact Us Page](assets/readme-images/contact-us.png) | [Tablet Contact Us Page](assets/readme-images/tablet-contact-us.png) | [Desktop Contact Us Page](assets/readme-images/desktop.contact-us.png) |
 
+## Changes to Wireframes
+Throughout the development of the website, some change have been made.
+
+1. Landing page newsletter form 
+  * The sign-up form on the landing page has been removed as the newsletter is yet to be implemented.
+
+2. Twitch Stream Iframe 
+  * The Twitch iframe has been removed from the community page as the it was unnecessary content. Visitors still have the option to access our Twitch stream from the footer of the website.
+
+3. The founder section
+  * The Founder section has been moved from the Contact Us page to the community page as given its content and purpose it was more suited to the community page.
+
+4. Contact Us page newsletter form
+  * The newsletter application form has been removed as it is yet to be implemented and will be pushed back in later updates.
+
+5. Business and user enquiries
+  * The business and partnership section has been merged with the additional communication channels for members and visitors and both serve the same purpose and having them separately was pointless.
+
+# Surface Plane
+ The color pallete choice was thought as a representation of positivity and belongingness.
+
+## Colour Pallete
+
+During the initial development a choice of warm colours was used to be more pleasant and welcoming to our visitors.
+
+The initial pallete was chosen using [Coolors.](https://coolors.co/)
+
+![Colours pallete](assets/readme-images/initial-colours-pallete.png)
+
+After the development was finished the colour pallete was altered, the below colours being used as definitive choices.
+
+![Final colours pallete]()
+
 
 
 
