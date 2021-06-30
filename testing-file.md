@@ -35,4 +35,4 @@ The following bugs were encountered and fixed during development:
 
 - The YouTube iframe was overlapping the navbar when scrolling down the community page. The issue was fixed by removing the absolute positioning given to the iframe.
 - The footer was not sticking to the bottom of the page if the viewport was higher than the content was filling. The issue was fixed by creating a div to cover the entire body and style it with flexbox.
-
+- Long loading times for the gallery page. All images have been compressed to improve the loading times.
