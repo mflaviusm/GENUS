@@ -21,7 +21,7 @@ GENUS was designed with the user in mind to offer the best possible UX and UI.
 1. [ Project Goals](https://github.com/mflaviusm/GENUS#project-goals)
 2. [UX]()
 3. [ Strategy Plane]()
-    * [User Stories] ()
+    * [User Stories](https://github.com/mflaviusm/GENUS#user-stories)
 4. [ Scope Plane]()
     * [ Existing Features]()
     * [ Features left to implement]()
