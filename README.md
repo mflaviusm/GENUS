@@ -156,7 +156,12 @@ The navigation bar has been desiged to be always on top to ensure visitors can e
 
 This project has had its wireframes developed using [Figma](https://www.figma.com/)
 
-
+| Mobile | Tablet| Desktop|
+--------------------|--------------------|--------------------------|
+| [Mobile Home Page](assets/readme-images/mobile-homapge.png) | [Tablet Home Page](assets/readme-images/tablet-homepage.png) | [Desktop Home Page](assets/readme-images/desktop-homepage.png) |
+| [Mobile Community Page](assets/readme-images/mobile-community.png) | [Tablet Community Page](assets/readme-images/tablet-community.png) | [Desktop Community Page](assets/readme-images/desktop-community.png) |
+| [Mobile Gallery](assets/readme-images/mobile-gallery.png) | [Tablet Gallery Page](assets/readme-images/tablet-gallery.png) | [Desktop Gallery Page](assets/readme-images/desktop-gallery.png) |
+| [Mobile Contact Us Page](assets/readme-images/contact-us.png) | [Tablet Contact Us Page](assets/readme-images/tablet-contact-us.png) | [Desktop Contact Us Page](assets/readme-images/desktop.contact-us.png) |
 
 
 
